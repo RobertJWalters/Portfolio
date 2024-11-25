@@ -25,6 +25,7 @@ body{
     background-color: black;
 
 }
+.header
 button{
     font-size: 150%;
     margin: 1%;
@@ -38,15 +39,10 @@ button:hover{
 section{
     display: flex;
     flex-direction: column;
-    /* grid: auto-flow / 1fr 1fr; */
     justify-content: center;
     align-items: center;
     min-height: 80dvh;
     padding: 2em 2em;
-    
-
-    /* The CSS Below is Purely for Show */
-    /* border: 1px solid rgb(255, 0, 0);  */
 }
 .title{
     text-decoration: underline;
@@ -71,18 +67,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
-}
-.oneThirdPage{
-    display: flex;
-    width: 66%;
-
-}
-.twoThirdPage{
-    display: flex;
-    width: 100%;
-    padding: 100px;
-
+    padding: 20px 50px 50px 50px;
 }
 img{
     width: 70%;
@@ -106,6 +91,22 @@ h2{
     font-size: large;
 }
 
+.socialContainer{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+a{
+    color: aliceblue;
+    background-color: #000;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    text-decoration: underline;
+    border: 0;
+
+}
 
 .skill-box {
 	display: flex;
