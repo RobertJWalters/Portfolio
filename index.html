@@ -7,14 +7,94 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/stylesheet.css">
+
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     </head>
     <body>
-        
-        <div id="header">
 
+        <div id="header">
+            <a href="#impressionSec">HOME</a>
+            <a href="#aboutSec">ABOUT</a>
+            <a href="#projectsSec">PROJECTS</a>
+            <a href="#skillsSec">SKILLS</a>
         </div>
         <div id="mainContainer">
 
+            <section id="impressionSec">
+                <div class="contents">
+                    <div class="halfPage">
+                        <div id="name">Robert Walters</div>
+                        <div id="nameSub">
+                            Student Programmer
+                        </div>
+                    </div>
+                    <div class="halfPage">
+                        <img src="public/impressionImg.PNG" alt="">
+                    </div>
+                </div>
+            </section>
+            <section id="aboutSec">
+                <div class="title">ABOUT</div>
+                <div class="contents">
+                    <div style="width: 66%;" class="halfPage">
+                        <img src="public/bioImage.png" alt="">
+                    </div>
+                    <div class="halfPage">
+                        <div style="padding: 100px;">
+                            Hi! I’m Robert, a student of computer programming with a creative approach. After learning photography for ten years and gaining management and customer service skills, I bring a unique blend of technical skill and creativity to the way I write software.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projectsSec">
+                <div class="title">PROJECTS</div>
+                <div class="contents">
+                    <div class="halfPage">
+                        <img style="width: 400px; margin-bottom: 75px; padding-top: 100px;" src="public/projectImgBattleship.png" alt="">
+                        <div class="projectName">BATTLESHIP AI</div>
+                        <div>
+                            This project was made for a post-secondary assignment where we were tasked with making a computer player that is very good at winning battleship. The theoretical average of turns it takes to win is around 42 turns, my code does it is 45.2 turns averagely. 
+                        </div>
+                    </div>
+                    
+                    <div class="halfPage">
+                        <img style="width: 400px; margin-bottom: 50px;" src="public/projectImgBubbleSort.png" alt="">
+                        <div class="projectName">BUBBLE SORT</div>
+                        <div>
+                            In this project I made the classic sorting program Bubble Sort but with the ability to take in either integers or doubles according to the user’s choice. Using method overloading and lots of for loops the project came together.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skillsSec">
+                <div class="title">SKILLS</div>
+                <div style="flex-direction: column;" class="contents">
+                    <div style="padding-bottom: 10px;" class="skill-group">
+                        <span>
+                            <i class="devicon-java-plain"></i>
+                            <h6>HTML</h6>
+                        </span>
+                        <span>
+                            <i class="devicon-photoshop-plain"></i>
+                            <h6>PHOTOSHOP</h6>
+                        </span>
+                        <span>
+                            <i class="devicon-putty-plain"></i>
+                            <h6>PUTTY</h6>
+                        </span>
+                    </div>
+                    <div style="width: 800px; padding-top: 90px; padding-bottom: 10px;" class="skill-group">
+                        <span>
+                            <i class="devicon-unix-original"></i>
+                            <h6>UNIX</h6>
+                        </span>
+                        <span>
+                            <i class="devicon-github-plain"></i>
+                            <h6>GITHUB</h6>
+                        </span>
+                    </div>
+                </div>
+            </section>
         </div>
 
     </body>
