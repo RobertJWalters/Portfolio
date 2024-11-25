@@ -23,14 +23,18 @@ body{
 
 }
 #header
-button{
+a{
     font-size: 150%;
     margin: 1%;
     color: rgb(233, 233, 233);
     background-color: rgba(0, 0, 0, 0);
     border: 10px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
-button:hover{
+a:hover{
     text-decoration: underline;
 }
 
@@ -74,16 +78,15 @@ section{
 }
 
 img{
-    width: 70%;
+    width: 60%;
 }
-h1{
+.projectName{
     font-size: 150%;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-#name,
-h1{
+#name{
     background-color: black;
     font-family: "Baskervville", serif;
     font-weight: 500;
