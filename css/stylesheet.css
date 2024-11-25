@@ -5,9 +5,9 @@ body{
     color: rgb(233, 233, 233);
     background-color: black;
     font-family: "Baskervville", serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    font-size: large;
+    font-size: xx-large;
 
 }
 #mainContainer{
@@ -26,12 +26,13 @@ body{
     justify-content: flex-end;
     align-items: center;
     background-color: black;
+
     
     /* The CSS Below is Purely for Show */
     /* border: 1px solid rgb(9, 255, 0); */
 }
 button{
-    font-size: xx-large;
+    font-size: 150%;
     margin: 1%;
     color: rgb(233, 233, 233);
     background-color: rgba(0, 0, 0, 0);
@@ -46,7 +47,7 @@ section{
     /* grid: auto-flow / 1fr 1fr; */
     justify-content: center;
     align-items: center;
-    min-height: 86dvh;
+    min-height: 80dvh;
     padding: 2em 2em;
     
 
@@ -56,7 +57,7 @@ section{
 .title{
     text-decoration: underline;
     text-decoration-color: rgb(180, 180, 180);
-    font-size: xx-large;
+    font-size: 150%;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -98,10 +99,19 @@ img{
     width: 100%;
 }
 h1{
-    font-size: xx-large;
+    font-size: 150%;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+#name,
+h1{
+    background-color: black;
+    font-family: "Baskervville", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 150%;
+    margin: 0;
 }
 h2{
     font-size: large;
