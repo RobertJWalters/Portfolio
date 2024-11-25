@@ -13,9 +13,6 @@ body{
 #mainContainer{
     margin-left: 5%;
     margin-right: 5%;
-
-    /* The CSS Below is Purely for Show */
-    border: 1px solid black; 
 }
 .header{
     min-height: 8dvh;
@@ -27,9 +24,6 @@ body{
     align-items: center;
     background-color: black;
 
-    
-    /* The CSS Below is Purely for Show */
-    /* border: 1px solid rgb(9, 255, 0); */
 }
 button{
     font-size: 150%;
@@ -78,22 +72,17 @@ section{
     align-items: center;
     flex-direction: column;
     padding: 50px;
-
-    /* The CSS Below is Purely for Show */
-    /* border: 1px solid rgb(4, 0, 255);  */
 }
 .oneThirdPage{
     display: flex;
     width: 66%;
 
-    /* border: 1px solid rgb(253, 24, 242);  */
 }
 .twoThirdPage{
     display: flex;
     width: 100%;
     padding: 100px;
 
-    /* border: 1px solid rgb(0, 255, 106);  */
 }
 img{
     width: 70%;
