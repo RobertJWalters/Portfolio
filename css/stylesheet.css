@@ -1,10 +1,18 @@
+
 body{
     margin: 0px;
     padding: 2px;
+    color: rgb(233, 233, 233);
+    background-color: black;
+    font-family: "Baskervville", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+
 }
 #mainContainer{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
 
     /* The CSS Below is Purely for Show */
     border: 1px solid black; 
@@ -14,20 +22,87 @@ body{
     width: 100%;
     position: sticky;
     top: 0;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    
     /* The CSS Below is Purely for Show */
-    border: 1px solid rgb(9, 255, 0);
+    /* border: 1px solid rgb(9, 255, 0); */
 }
-.segment{
+button{
+    font-size: xx-large;
+    margin: 1%;
+    color: rgb(233, 233, 233);
+    background-color: rgba(0, 0, 0, 0);
+    border: 10px;
+}
+button:hover{
+    text-decoration: underline;
+}
+section{
     display: flex;
     flex-direction: column;
+    /* grid: auto-flow / 1fr 1fr; */
     justify-content: center;
     align-items: center;
-    position: relative;
-    text-align: left;
-    min-height: 92dvh;
-    padding: 0 2em;
+    min-height: 86dvh;
+    padding: 2em 2em;
+    
 
     /* The CSS Below is Purely for Show */
-    border: 1px solid rgb(255, 0, 0); 
+    /* border: 1px solid rgb(255, 0, 0);  */
+}
+.title{
+    text-decoration: underline;
+    text-decoration-color: rgb(180, 180, 180);
+    font-size: xx-large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 100px;
+    
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.halfPage{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+
+    /* The CSS Below is Purely for Show */
+    /* border: 1px solid rgb(4, 0, 255);  */
+}
+.oneThirdPage{
+    display: flex;
+    width: 66%;
+
+    /* border: 1px solid rgb(253, 24, 242);  */
+}
+.twoThirdPage{
+    display: flex;
+    width: 100%;
+    padding: 100px;
+
+    /* border: 1px solid rgb(0, 255, 106);  */
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: xx-large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h2{
+    font-size: large;
 }
