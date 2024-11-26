@@ -13,7 +13,7 @@ body{
 /* --------------------HEADER--------------------- */
 #header{
     min-height: 8dvh;
-    padding: 2em 2em;
+    margin-right: 15vw;
     position: sticky;
     top: 0;
     display: flex;
