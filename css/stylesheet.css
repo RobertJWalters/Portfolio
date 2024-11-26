@@ -12,14 +12,19 @@ body{
 
 /* --------------------HEADER--------------------- */
 #header{
-    min-height: 8dvh;
-    position: sticky;
+    min-height: 8dvh; 
     top: 0;
+    position: sticky;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: black;
-
+}
+a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 #header
 a{
@@ -36,9 +41,7 @@ a{
 }
 #header
 a:hover{
-    /* text-decoration: underline; */
     transform: translate3d(0, -10px, 22px);
-    /* color: #1e1f26; */
 }
 
 
@@ -73,6 +76,13 @@ section{
 }
 .halfPage{
     display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center; 
+    width: 100%;
+}
+.halfPage{
+    display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -98,7 +108,7 @@ img{
     margin: 0;
 }
 #nameSub{
-    font-size: x-large;
+    font-size: 100%;
 }
 h2{
     font-size: large;
